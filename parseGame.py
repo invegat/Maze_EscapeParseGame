@@ -2,7 +2,7 @@
 import operator
 import re
 from collections import namedtuple
-import io
+import sys
 
 
 Move = namedtuple('Move', ['bot', 'rows', 'move',
@@ -10,6 +10,7 @@ Move = namedtuple('Move', ['bot', 'rows', 'move',
 
 
 def parseGame(fn):
+    print("Hello")
     lines = None
     with open(fn, "rt") as F:
         line = F.readline()
@@ -88,4 +89,5 @@ def parseGame(fn):
             print(move.rows[i])
 
 
-parseGame("/home/mark/Downloads/game-7440417.json")
+# parseGame("/home/mark/Downloads/game-7440417.json")
+parseGame(sys.argv[1])
