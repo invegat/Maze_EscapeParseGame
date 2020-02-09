@@ -1,0 +1,36 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+yapf = "*"
+flake8 = "*"
+autopep8 = "*"
+
+[packages]
+dash = "*"
+matplotlib = "*"
+statistics = "*"
+jupyter = "*"
+sympy = "*"
+scipy = "*"
+ipython = "*"
+falcon = "*"
+hy = "*"
+pylint = "*"
+pycodestyle = "*"
+flake8 = "*"
+twisted = "*"
+twine = "*"
+wheel = "*"
+cx-freeze = "*"
+py2exe = "*"
+pyinstaller = "*"
+flask = "*"
+blinker = "*"
+pycairo = "*"
+pygobject = "*"
+
+[requires]
+python_version = "3.8.1"
